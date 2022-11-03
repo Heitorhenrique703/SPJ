@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/c82e18eee6.js" crossorigin="anonymous"></script>
+    <title>CT - Alma Samurai</title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+</nav>
+<header id="headeID" class="hidden">
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">MODALIDADES</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">VÍDEO</a></li>
+                <li><a href="#">DEPOIMENTOS</a></li>
+                <li><a href="#b-news">NOVIDADES DO CT</a></li>
+                <li><a href="#i-class">HORÁRIO</a></li>
+                <li><a href="#galleryID">GALERIA</a></li>
+                <li><a href="#maps">LOCALIZAÇÃO</a></li>
+            </ul>
+        </header>
+    <div class="header-content">
+    <div class="main-image"></div>
+
+    </div>
+
+    <section class="breaking-news-ct hidden" id="b-news">
+        <h2>Novidades do CT</h2>
+        <div class="slider">
+            <div class="slides">
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+
+                <!--Slides IMGS-->
+                <div class="slide" id="first">
+                    <h2>Aulas de Box</h2>
+                    <span class="mask"></span>
+                    <img src="./img/slides-breaking-news/boxe.jpg" alt="Luvas de Boxe">
+                </div>
+                <div class="slide">
+                    <h2>Aulas de Pilates</h2>
+                    <span class="mask"></span>
+                    <img src="./img/slides-breaking-news/pilates.jpg" alt="Mulher Pilates">
+                </div>
+                <div class="slide">
+                    <h2>Oficialmente RL Eldorado</h2>
+                    <span class="mask"></span>
+                    <img src="./img/img-teste.png" alt="">
+                </div>
+                <div class="slide">
+                    <h2>Aula Funcional</h2>
+                    <span class="mask"></span>
+                    <img src="./img/slides-breaking-news/funcional.jpg" alt="Mulher Abdominal">
+                </div>
+                <div class="slide">
+                    <h2>Em breve Inalguração do Novo Tatame</h2>
+                    <span class="mask"></span>
+                    <img src="./img/img-teste.png" alt="">
+                </div>
+                <div class="slide">
+                    <h2>Filiação com a Equipe LR Extreme</h2>
+                    <span class="mask"></span>
+                    <img src="./img/img-teste.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="itinerary-class hidden" id="i-class">
+        <div class="it-contanier">
+            <h2>Horários das Aulas</h2>
+            <div class="week-btn-div" id="week-btn-div-id">
+                <input type="radio" name="week-btn" id="monday-btn">
+                <input type="radio" name="week-btn" id="tuesday-btn">        
+                <input type="radio" name="week-btn" id="wednesday-btn">
+                <input type="radio" name="week-btn" id="thursday-btn">
+                <input type="radio" name="week-btn" id="saturday-btn">
+            </div>
+            <div class="label-week-btn" id="label-div">
+                <label for="monday-btn" class="select">Segunda-Feira</label>
+                <label for="tuesday-btn">Terça-Feira</label>
+                <label for="wednesday-btn">Quarta-Feira</label>
+                <label for="thursday-btn">Quinta-Feira</label>
+                <label for="saturday-btn">Sábado</label>
+            </div>
+            <div class="week-content">
+                <div class="monday firstE" id="monday-content">
+                    <ul>
+                        <li>6:00 AM - Muay Thay</li>
+                        <li>19:00 PM - Jiu Jitsu Kids II</li>
+                        <li>20:30 PM - Jiu Jitsu</li>
+                    </ul>
+                </div>
+                <div class="tuesday" id="tuesday-content">
+                    <ul>
+                        <li>7:00 AM - Funcional</li>
+                        <li>7:00 AM - Funcional</li>
+                        <li>18:00 PM - Muay Thay</li>
+                        <li>19:15 PM - Jiu Jitsu Iniciante</li>
+                        <li>20:30 PM - Jiu Jitsu</li>
+                    </ul>
+                </div>
+                <div class="saturday" id="saturday-content">
+                    <ul>
+                        <li>8:00 AM - Muay Thay</li>
+                        <li>9:00 AM - Jiu Jitsu Iniciante</li>
+                        <li>10:00 AM - Open Mat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery hidden" id="galleryID">
+        <div class="ga-contanier">
+            <h2>Galeria</h2>
+
+            <div class="ga-photos">
+                <div class="photo">
+                    <img src="./img/gallery/j1.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/j2.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/j3.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/Kids.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/m2.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/m3.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/m4.jpeg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./img/gallery/ppp.jpg" alt="">
+                </div>
+            </div>
+        </div> 
+    </section>
+    
+    <!--<section class="promotion hidden" id="promotionID">
+        <div class="bg-promotion">
+            <h2>DESCONTO FAMILÍA</h2>
+            <p>Planos com desconto para um adulto e um infantil</p>
+        </div>
+    </section>-->
+    <div class="maps hidden" id="maps">
+        <div class="text-map">
+            <h3>Excelência no Ensino</h3>
+            <p>Nós atendemos em toda à Eldorado e região de Diadema, sempre oferencendo a melhor experência e a oportunidade de ensinar aos nossos alunos, valores importantes, novas culturas e um novo jeito de viver. <br> 
+                O CT Alma Samurai é um lugar acolhedor e o melhor ambiente para testar seu corpo e aprender com isso, com os melhores profissionais e ensino nota 10. Venha conhecer novos horizontes! <br><br><br> <i class="fa-solid fa-location-dot"></i> R. João Antônio de Araújo, 395 - 2° andar - Eldorado, Diadema - SP, 09972-001</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.3413120071918!2d-46.62192537436885!3d-23.723025197881583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43106a0fcabd%3A0xf8a7a8781c2a50a1!2sAlma%20Samurai%20-%20Centro%20de%20Treinamento!5e0!3m2!1spt-BR!2sbr!4v1665598675969!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0; border-radius: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer-samurai">
+        <div class="footer-top">
+            <div class="logo-footer">
+                <img src="./img/hero.jpg" alt="image-footer">
+            </div>
+            <div class="rede-sociais">
+                <a href="https://www.facebook.com/almasamuraict/" target="_blank" class="rd-btn"><i class="fa-brands fa-facebook"></i> </a>
+                <a href="" target="_blank" class="rd-btn"><i class="fa-brands fa-instagram"></i> </a>
+                <a href="#" class="rd-btn"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Todos os direitos reservados, Alma Samurai &copy;</p>
+            <p>Desenvolvido por FHH</p>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
